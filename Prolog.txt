@@ -46,3 +46,10 @@ clear :-
 
 
 # diagnose(Disease)
+
+sudo apt update
+sudo apt install swi-prolog
+swipl
+?- [diagnosis].
+?- diagnose(Disease).
+?- clear.
